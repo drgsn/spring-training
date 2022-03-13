@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+<div th:insert="header:: header"></div>
+<div th:insert="header:: lang-select"></div>
+
+<div class="container">
+
+    <div class="row">
+        <h3 th:text="#{welcome.message}">test text</h3>
+    </div>
+
+    <div th:each="post: ${posts}">
+        <div class="row">
+            <div class="col">
+                <h4 th:text="${post.title}">Test</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p th:text="${post.shortDescription}">Test</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <a th:href="@{/post/} +${post.id}">full post</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a th:href="@{/post?title=} + ${post.title}">full post</a>
+            </div>
+        </div>
+
+        <div class="dropdown-divider"></div>
+    </div>
+
+</div>
+
+</body>
+</html>

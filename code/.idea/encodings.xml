@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ActiveMQDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AdminServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DatasourceDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Producer-Consumer/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Producer-Consumer/producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringAop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringAop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootSecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudStream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDockerAuctuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringShell/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringWebflux/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TodoApp - OAuth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TodoApp - Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TodoApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog - spring security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/account-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/auth-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/monitoring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/monitoring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/statistics-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-piggymetrics/turbine-stream-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

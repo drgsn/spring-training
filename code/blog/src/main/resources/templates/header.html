@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+
+<div th:fragment="header">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" th:href="@{/}">Blog</a>
+
+        <a th:href="@{/create-post}" class="btn btn-dark">Add Post</a>
+    </nav>
+
+</div>
+
+
+
+<div th:fragment="lang-select">
+    <div class="dropdown-divider"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <span th:text="#{language.change}"></span>
+    <select id="locales">
+        <option value=""></option>
+        <option value="en" th:text="#{language.english}"></option>
+        <option value="ro" th:text="#{language.romanian}"></option>
+    </select>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("#locales").change(function () {
+            var selectedOption = $('#locales').val();
+            if (selectedOption != '') {
+                window.location.replace('?lang=' + selectedOption);
+            }
+        });
+    });
+    </script>
+</div>
+
+
+</body>
+</html>

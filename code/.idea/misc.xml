@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/blog/pom.xml" />
+        <option value="$PROJECT_DIR$/TodoApp/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAop/pom.xml" />
+        <option value="$PROJECT_DIR$/AdminServer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringShell/pom.xml" />
+        <option value="$PROJECT_DIR$/ActiveMQDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringWebflux/pom.xml" />
+        <option value="$PROJECT_DIR$/DatasourceDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/TodoApp - OAuth/pom.xml" />
+        <option value="$PROJECT_DIR$/Producer-Consumer/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Producer-Consumer/producer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudStream/pom.xml" />
+        <option value="$PROJECT_DIR$/BeansAndAutowiring/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/TodoApp - Security/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDockerAuctuator/pom.xml" />
+        <option value="$PROJECT_DIR$/blog - spring security/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices-piggymetrics/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="current" project-jdk-type="JavaSDK" />
+</project>
